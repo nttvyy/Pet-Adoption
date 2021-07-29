@@ -125,7 +125,7 @@ h2:after{
 /*------------------------------JOINUS-----------------------------*/
 /*-----------------------------------------------------------------*/
 .joinus{
-    background-image: linear-gradient(rgba(36, 36, 36, 0.5) 55%,rgba(161, 161, 161, 0.4)), url(/images/NHANNUOI/rescure-process-bg.jpg);
+    background-image: linear-gradient(rgba(36, 36, 36, 0.5) 55%,rgba(161, 161, 161, 0.4)), url(../images/NHANNUOI/rescure-process-bg.jpg);
     background-size: cover;
     background-position: center; 
     color: white;
