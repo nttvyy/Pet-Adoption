@@ -1,0 +1,249 @@
+@media only screen and (max-width:1200px){
+    .main-nav img{
+        width: 250px;
+    }
+    .main-nav ul li{
+        margin-right: 15px;
+        font-size: 14px;
+        list-style: none;
+        text-align: center;
+        float: left;
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+    .main-nav{
+        height: 90px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .button{
+        width: 25%;
+    }
+    h2{
+        padding-top: 40px;
+        margin-left: 50px;
+    }
+    .introduce p{
+        width: 50%;
+        float: left;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-right: 30px;
+        line-height: 1.5;
+    }
+    .introduce img{
+        width: 20%;
+        float: left;
+    }
+    h3{
+        font-size: 23px;
+    }
+    .foster-img{
+        width: 20%;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-right: 30px;
+        float: left;
+        position: relative;
+        top: 125px;
+        right: 25px;
+    }
+    .clean h3{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .clean p{
+        width: 60%;
+        margin-left: 50px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    .clean-box{
+        background-color: rgb(207, 207, 207);
+        border-color:  rgb(207, 207, 207);
+        border-radius: 15px;
+        width: 50%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .rescue-img{
+        width: 20%;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right: 30px;
+        float: left;
+        position: relative;
+        top: 50px;
+        right: 25px;
+    }
+    .rescue-box{
+        background-color: rgb(207, 207, 207);
+        border-radius: 15px;
+        width: 60%;
+        float: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 280px;
+    }
+    .transform h3{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .transform p{
+        width: 60%;
+        margin-left: 50px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    .transform-box{
+        background-color: rgb(207, 207, 207);
+        border-color:  rgb(207, 207, 207);
+        border-radius: 15px;
+        width: 50%;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .main-nav img{
+        width: 210px;
+    }
+    .main-nav ul li{
+        margin-right: 10px;
+        margin-top: 30px;
+        font-size: 12px;
+        list-style: none;
+        float: left;
+        margin-left: 12px;
+    }
+    .main-nav{
+        width: 100%;
+        height: 80px;
+        background-color: #e9e9e9;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .button{
+        width: 30%;
+        margin-left: 100px;
+    }
+    .introduce img{
+        width: 30%;
+        float: left;
+    }
+    .foster-img{
+        width: 25%;
+        border-radius: 50%;
+        margin-left: 150px;
+        margin-right: 30px;
+        float: left;
+        position: none;
+        top: 35px;
+        right: 25px;
+    }
+    .foster{
+        margin-top: 10px;
+        width: 45%;
+        text-align: justify;
+        line-height: 1.5;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .foster-box{
+        background-color: rgb(207, 207, 207);
+        border-radius: 15px;
+        width: 60%;
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 260px;
+    }
+    .clean-img{
+        width: 25%;
+    }
+    .clean p{
+        width: 55%;
+    }
+    .rescue{
+        margin-top: 20px;
+        width: 60%;
+        text-align: justify;
+        line-height: 1.5;
+        float: left;
+    }
+    .rescue-img{
+        width: 25%;
+    }
+    .transform-img{
+        width: 25%;
+    }
+}
+@media only screen and (max-width:830px){
+    .main-nav img{
+        width: 130px;
+        margin-left: 0px;
+    }
+    .main-nav ul li{
+        margin-right: 5px;
+        font-size: 10px;
+        list-style: none;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        margin-left: 6px;
+    }
+    .main-nav{
+        height: 50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .button{
+        width: 45%;
+    }
+    .introduce img{
+        margin-top: 50px;
+    }
+    .foster-img{
+        margin-left: 70px;
+        width: 30%;
+        margin-top: 50px;
+    }
+    .foster-box{
+        background-color: rgb(207, 207, 207);
+        border-radius: 15px;
+        width: 90%;
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    .clean p{
+        margin-left: 30px;
+        width: 50%;
+    }
+    .clean img{
+        width: 30%;
+    }
+    .clean-box{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .rescue-img{
+        width: 30%;
+    }
+    .rescue{
+        width: 50%;
+    }
+    .rescue-box{
+        margin-left: 190px;
+    }
+    .transform-img{
+        width: 30%;
+    }
+    .transform{
+        width: 60%; 
+    }
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sài Gòn Pet Adoption</title>
+    <link rel="shortcut icon" type="image/png" href="./images/logonho.png" />
+    <link rel="stylesheet" href="/style/trangchu.css">
+    <link rel="stylesheet" href="/style/queries/queriestrangchu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/source/grid.css">
+    <script src="https://kit.fontawesome.com/2296303e2e.js" crossorigin="anonymous"></script>
+    <script src="./js/sticky.js"></script>
+</head>
+
+<body>
+    <nav >
+        <div class="main-nav">
+            <img src="/images/logo.png" alt="logo">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/trangchu.html">
+                        TRANG CHỦ
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/nhannuoi.html">
+                        NHẬN NUÔI
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/ungho.html">
+                        ỦNG HỘ
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="tinhnguyenvien.html">
+                        TÌNH NGUYỆN VIÊN
+                    </a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/lienhe.html">
+                        LIÊN HỆ
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/dangnhap.html">
+                        ĐĂNG NHẬP
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/images/TRANGCHU/1.jpg" style="width:100%">
+            <div class="text">
+                <h1>HÃY NHẬN NUÔI, ĐỪNG <br> XUA ĐUỔI!</h1>
+                <p>Loài vật cũng có tri giác và cảm xúc, chúng cũng biết đau, biết sợ <br> hãi, biết yêu thương và muốn
+                    được yêu thương.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/images/TRANGCHU/2.jpg" style="width:100%">
+            <div class="text">
+                <h1>HÃY NHẬN NUÔI, ĐỪNG <br> XUA ĐUỔI!</h1>
+                <p>Loài vật cũng có tri giác và cảm xúc, chúng cũng biết đau, biết sợ <br> hãi, biết yêu thương và muốn
+                    được yêu thương.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/images/TRANGCHU/3.jpg" style="width:100%">
+            <div class="text">
+                <h1>HÃY NHẬN NUÔI, ĐỪNG <br> XUA ĐUỔI!</h1>
+                <p>Loài vật cũng có tri giác và cảm xúc, chúng cũng biết đau, biết sợ <br> hãi, biết yêu thương và muốn
+                    được yêu thương.</p>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <img src="/images/TRANGCHU/4.jpg" style="width:100%">
+            <div class="text">
+                <h1>HÃY NHẬN NUÔI, ĐỪNG <br> XUA ĐUỔI!</h1>
+                <p>Loài vật cũng có tri giác và cảm xúc, chúng cũng biết đau, biết sợ <br> hãi, biết yêu thương và muốn
+                    được yêu thương.</p>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <img src="/images/TRANGCHU/5.jpg" style="width:100%">
+            <div class="text">
+                <h1>HÃY NHẬN NUÔI, ĐỪNG <br> XUA ĐUỔI!</h1>
+                <p>Loài vật cũng có tri giác và cảm xúc, chúng cũng biết đau, biết sợ <br> hãi, biết yêu thương và muốn
+                    được yêu thương.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script>
+        //khai báo biến slideIndex đại diện cho slide hiện tại
+        var slideIndex;
+        // KHai bào hàm hiển thị slide
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex].style.display = "block";
+            dots[slideIndex].className += " active";
+            //chuyển đến slide tiếp theo
+            slideIndex++;
+            //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+            if (slideIndex > slides.length - 1) {
+                slideIndex = 0
+            }
+            //tự động chuyển đổi slide sau 5s
+            setTimeout(showSlides, 5000);
+        }
+        //mặc định hiển thị slide đầu tiên 
+        showSlides(slideIndex = 0);
+
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+    </script>
+    <div class="aboutus">
+        <h1>Nhận Nuôi Thú Cưng - Saigon Pet Adoption</h1>
+        <p>Chúng tôi là một nhóm trẻ tình nguyện viên Việt Nam và quốc tế, hoạt động vì tình yêu chó mèo. Tôn chỉ hoạt
+            động của chúng tôi là không từ bỏ nỗ lực với bất kỳ con vật nào, dù bé có ốm yếu hay tàn tật tới đâu, bởi
+            mỗi thú cưng đều cần có cơ hội hi vọng vào một tương lai tốt đẹp. Chúng tôi mang lại sự yêu thương, chăm sóc
+            và cưu mang với những con vật đáng thương bị bỏ rơi hay bạo hành. Ngoài ra, chúng tôi giúp tìm mái ấm trọn
+            đời cho các bé. Và cuối cùng, chúng tôi giúp nâng cao nhận thức về trách nhiệm của chủ nuôi thông qua mạng
+            xã hội và các hoạt động thiện nguyện.</p>
+        <img class="aboutusimg" src="/images/TRANGCHU/c30e203bf40aa04ffe47e5d189706db1.jpg" alt="">
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <img class="abtus" src="/images/TRANGCHU/423cf220-b557-4644-a769-dd508226180d.jpg" alt="">
+                <a class="nhannuoi" href="/nhannuoi.html">NHẬN NUÔI</a>
+                <p>Hãy nhận nuôi, cưu mang, đừng đuổi và yêu thương loài động vật bị bỏ rơi</p>
+            </div>
+            <div class="col span-1-of-3">
+                <img class="abtus" src="/images/TRANGCHU/03fc601a-a150-4d55-b051-15d6d3ced88e.jpg" alt="">
+                <a class="ungho" href="/ungho.html">ỦNG HỘ</a>
+                <p>Giúp duy trì hoạt động của SPA qua hình thức quyên góp tiền hoặc nhu yếu phẩm</p>
+            </div>
+            <div class="col span-1-of-3">
+                <img class="abtus" src="/images/TRANGCHU/28516d17-6278-4bd4-8eb7-0f3400d07969.jpg" alt="">
+                <a class="tnv" href="/tinhnguyenvien.html" style="margin-right: 30px;">TÌNH NGUYỆN VIÊN</a>
+                <p>Hành động để thay đổi cuộc sống của chó, mèo và thú cưng khác</p>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <ul class="icon">
+            <li>
+                <i class="fas fa-paw"></i>
+                <div class="caption">278 <br> Ca Cứu Hộ</div>
+            </li>
+            <li>
+                <i class="fas fa-dog"></i>
+                <div class="caption">98 <br> Đã Có Chủ</div>
+            </li>
+            <li>
+                <i class="fas fa-house-user"></i>
+                <div class="caption"> 111 <br> Chờ Tìm Chủ</div>
+            </li>
+            <li>
+                <i class="fas fa-cat"></i>
+                <div class="caption">28 <br> Chưa Sẵn Sàng Tìm Chủ</div>
+            </li>
+        </ul>
+    </div>
+    <div class="contact">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <img class="logo" src="/images/logo.png" alt="">
+                <div class="small-icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="col span-2-of-3">
+                <h2>Về chúng tôi</h2>
+                 <p> Nhóm trẻ tình nguyện viên Việt Nam và quốc tế, hoạt động vì tình yêu chó mèo</p>.
+                <h2>Thông tin liên hệ</h2>
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>012345678 <br>
+                    <i class="fas fa-envelope"></i>saigonpetadoption@gmail.com <br>
+                    <i class="fas fa-map-marker-alt"></i>Sai Gon - Viet Nam
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; by V&H from HUFLIT
+    </div>
+</body>
+
+</html>
