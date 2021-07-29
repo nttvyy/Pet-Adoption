@@ -43,7 +43,7 @@ body{
 /*------------------------------OPENING-----------------------------*/
 /*-----------------------------------------------------------------*/
 .opening{
-    background-image: linear-gradient(rgba(36, 36, 36, 0.4) 55%,rgba(161, 161, 161, 0.4)), url(./images/TNV/jumbotron-volunteer.jpg);
+    background-image: linear-gradient(rgba(36, 36, 36, 0.4) 55%,rgba(161, 161, 161, 0.4)), url(../images/TNV/jumbotron-volunteer.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;

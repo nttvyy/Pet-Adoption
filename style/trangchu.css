@@ -191,14 +191,14 @@ body{
     font-size: 15px;
 }
 .aboutus{
-    background-image: url(./images/TRANGCHU/pattern1.png); 
+    background-image: url(../images/TRANGCHU/pattern1.png); 
     padding-bottom: 20px;
 }
 /*-----------------------------------------------------------------*/
 /*----------------------------INFORMATION---------------------------*/
 /*-----------------------------------------------------------------*/
 .information{
-    background-image: url(./images/TRANGCHU/counterbg.jpg);
+    background-image: url(../images/TRANGCHU/counterbg.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;

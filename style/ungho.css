@@ -43,7 +43,7 @@ body{
 /*------------------------------OPENING-----------------------------*/
 /*-----------------------------------------------------------------*/
 .opening{
-    background-image: url(./images/UNGHO/jumbotron-support.jpeg);
+    background-image: url(../images/UNGHO/jumbotron-support.jpeg);
     background-size: cover;
     background-position: center;
     height: 200px;
