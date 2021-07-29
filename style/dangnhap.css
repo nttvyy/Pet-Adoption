@@ -43,7 +43,7 @@ body{
 /*------------------------------OPENING-----------------------------*/
 /*-----------------------------------------------------------------*/
 .opening{
-    background-image: linear-gradient(rgba(36, 36, 36, 0.4) 55%,rgba(161, 161, 161, 0.4)), url(/images/DANGNHAP/thumb-1920-374329.jpg);
+    background-image: linear-gradient(rgba(36, 36, 36, 0.4) 55%,rgba(161, 161, 161, 0.4)), url(./images/DANGNHAP/thumb-1920-374329.jpg);
     background-size: cover;
     background-position: right;
     height: 200px;
